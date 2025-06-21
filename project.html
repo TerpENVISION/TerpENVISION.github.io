@@ -1,39 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Repository Organisasi GitHub</title>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    </head>
-    <body class="bg-sky-950 text-white">
-        <div class="container p-3">
-            <h1 class="text-white text-3xl font-bold">Project List</h1>
-            <ul id="repo-list" class="list-decimal p-4">
-                Loading...
-            </ul>
-        </div>
-
-        <script>
-            const orgName = "NAMA_ORGANISASI"; // Ganti dengan nama organisasi Anda
-            const repoList = document.getElementById("repo-list");
-
-            fetch(`https://api.github.com/orgs/TerpENVISION/repos`)
-            .then((response) => response.json())
-            .then((data) => {
-            repoList.innerHTML = ""; // Kosongkan tulisan "Loading..."
-                data.forEach((repo) => {
-                const li = document.createElement("li");
-                li.innerHTML = `<a href="${repo.html_url}" target="_blank">${
-                    repo.name
-                }</a> - ${repo.description || "No Description"}`;
-                repoList.appendChild(li);
-            });
-            })
-            .catch((error) => {
-                repoList.innerHTML = "Gagal mengambil data.";
-                console.error(error);
-            });
-        </script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
 </html>
