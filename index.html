@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>landing page</title>
+  <!-- css -->
   <link rel="stylesheet" href="./style.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
+  <!-- navbar -->
   <nav>
     <div class="nav">
       <div class="logo">
@@ -15,17 +19,18 @@
       </div>
       <div class="content">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#landing">Home</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#">Member</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <!-- landing page -->
   <div id="landing">    
     <div class="title">
-      <span>Terp Envision</span> Envision Your Future
+      <span>Terp Envision</span><br> Envision Your Future
     </div>
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
@@ -90,7 +95,36 @@
 
   </div>
 
+  <!-- project -->
+  <div id="project">
+    <div data-aos="flip-up" class="project-card">
+      <div class="project warp">
+        <div class="project-img"><img src="./asset/512x512.png" alt="Logo"></div>
+        <div class="project-title">Lorem Ipsum</div>
+        <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate?</div>
+      </div>
+      <button onclick="window.location.href='https://github.com/TerpENVISION/';"  class="project-link">Click Me</button>
+  </div>
+  <div data-aos="fade-down-left" class="project-card">
+      <div class="project warp">
+        <div class="project-img"><img src="./asset/512x512.png" alt="Logo"></div>
+        <div class="project-title">Lorem Ipsum</div>
+        <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate?</div>
+      </div>
+      <button onclick="window.location.href='https://github.com/TerpENVISION/';"  class="project-link">Click Me</button>
+    </div>
+  </div>
 
+  <div id="footer">
+
+  </div>
+
+  <!-- script -->
   <script src="./script.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
