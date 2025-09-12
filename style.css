@@ -110,7 +110,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 2
 
 #project {
     height: 100vh;
-    background-image: url('./asset/bg1.jpg');
+    background-image: url('./asset/bg2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
