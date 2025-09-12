@@ -80,7 +80,7 @@ button {
 }
 
 #landing {
-    background: #002e91;
+    background: #ffffff;
     background: linear-gradient(180deg, rgba(0, 46, 145, 1) 0%, rgb(0, 94, 176) 100%);
     color: #f9f9f9;
     height: calc(100vh);
@@ -103,7 +103,7 @@ button {
 }
 
 .title span {
-    color: #ffffff;
+    color: #800000;
     font-family: 'Lexend Deca', serif;
     font-weight: 900;
 }
