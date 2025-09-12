@@ -80,9 +80,9 @@ button {
 }
 
 #landing {
-    background: #ffffff;
+    background: ##D32F2F;
 background: linear-gradient(180deg, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 100%);
-    color: #f9f9f9;
+    color: ##B71C1C;
     height: calc(100vh);
     width: 100%;
     display: flex;
