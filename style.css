@@ -83,7 +83,7 @@ button {
     background: #ffffff;
 background: linear-gradient(180deg, rgba(255, 255, 255, 1) 57%, rgba(255, 255, 255, 0.42) 97%);
     color: #f9f9f9;
-    height: calc(70vh);
+    height: calc(30vh);
     width: 100%;
     display: flex;
     justify-content: center;
