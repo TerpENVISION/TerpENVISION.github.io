@@ -98,7 +98,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 1) 57%, rgba(255, 255, 2
 .title {
     font-size: 3rem;
     font-weight: 800;
-    text-align: right;
+    text-align: left;
 
 }
 
