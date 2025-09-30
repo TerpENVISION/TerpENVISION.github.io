@@ -25,7 +25,7 @@ nav {
 
 button {
     background-color: #101010;
-    color: #000000;
+    color: #f9f9f9;
     padding: 10px;
     font-size: 14pt;
     font-weight: 600;
@@ -52,7 +52,7 @@ button {
 
 .content a {
     text-decoration: none;
-    color: #f9f9f9;
+    color: #101010;
     font-weight: 500;
     font-size: 15pt;
     cursor: pointer;
