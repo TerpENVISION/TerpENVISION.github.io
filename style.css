@@ -58,6 +58,7 @@ button {
     color: #222222;
     font-weight: 500;
     font-size: 15pt;
+    font-family: 'Minecraft', sans-serif;
     cursor: pointer;
     -webkit-transition: .5 ease-in-out;
     -moz-transition: .5 ease-in-out;
