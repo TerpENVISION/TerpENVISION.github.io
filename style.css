@@ -86,11 +86,9 @@ button {
 }
 
 #landing {
-    background-image: url('./asset/Salinan dari Salinan dari Tanpa judul.svg');
-    background-attachment: static;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #ffffff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 57%, rgba(255, 255, 255, 0.42) 97%);
+    color: #f9f9f9;
     height: calc(90vh);
     width: 100%;
     display: flex;
