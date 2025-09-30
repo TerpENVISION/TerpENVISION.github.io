@@ -16,11 +16,12 @@ body {
 
 nav {
     background-color: #ffffff;
-    color: #ffffff;
+    color: #000000;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button {
@@ -52,7 +53,7 @@ button {
 
 .content a {
     text-decoration: none;
-    color: #101010;
+    color: #222222;
     font-weight: 500;
     font-size: 15pt;
     cursor: pointer;
