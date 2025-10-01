@@ -73,8 +73,6 @@ button {
     font-size: 15pt;
     font-family: 'Minecraft', sans-serif;
     cursor: pointer;
-    display: flex;
-    justify-content: center; 
     -webkit-transition: .5 ease-in-out;
     -moz-transition: .5 ease-in-out;
     -ms-transition: .5 ease-in-out;
