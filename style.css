@@ -51,13 +51,10 @@ button {
 }
 
 .nav {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-inline: 20px;
-    padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* logo 1 bagian, menu 2 bagian */
+  align-items: center;
+  padding: 0 20px;
 }
 
 .content {
@@ -73,7 +70,7 @@ button {
   justify-content: center;
   gap: 20px;
   list-style: none;
-  padding: 0 20px;
+  padding: 0;
   margin: 0;
 }
 
