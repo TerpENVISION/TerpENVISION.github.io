@@ -120,8 +120,8 @@ button {
 .title {
     font-size: 3rem;
     font-weight: 800;
-    text-align: right;
-
+    text-align: center;
+    font-family: 'Repetition Scrolling', sans-serif;
 }
 
 .title span {
