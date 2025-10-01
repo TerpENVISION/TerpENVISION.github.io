@@ -110,6 +110,10 @@ button {
     flex-direction: row;
 }
 
+.spacer {
+  flex: 1;
+}
+
 #landing {
     background: #ffffff;
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 57%, rgba(255, 255, 255, 0.42) 97%);
