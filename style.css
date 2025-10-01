@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
 @import url('https://fonts.cdnfonts.com/css/repetition-scrolling');
-@import url('https://fonts.cdnfonts.com/css/clear-sans');
+@import url('https://fonts.cdnfonts.com/css/clear-sans?styles=20831')
 @media (max-width: 600px) {
   .card-container {
   display: flex;
