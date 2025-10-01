@@ -58,20 +58,19 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-inline: 20px;
 }
 
 .content {
   display: flex;
-  justify-content: space-between; 
+  gap: 20px; 
   align-items: center;     
   width: 100%;
 }
 
 .content ul {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     gap: 10px;
     list-style: none;
