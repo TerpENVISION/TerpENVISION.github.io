@@ -61,7 +61,6 @@ button {
 
 .content ul {
     display: flex;
-    justify-content: center;
     flex-direction: row;
     gap: 10px;
     list-style: none;
@@ -87,7 +86,6 @@ button {
 
 .content ul {
     display: flex;
-    justify-content: center;
     flex-direction: row;
     gap: 20px;
 }
