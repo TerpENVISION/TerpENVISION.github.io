@@ -58,8 +58,15 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-inline: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  width: 100%;
 }
 
 .content ul {
