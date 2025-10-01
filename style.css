@@ -52,7 +52,7 @@ button {
 
 .nav {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* logo 1 bagian, menu 2 bagian */
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 0 20px;
 }
