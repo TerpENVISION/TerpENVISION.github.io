@@ -123,11 +123,12 @@ button {
     font-weight: 800;
     text-align: center;
     font-family: 'Repetition Scrolling', sans-serif;
+    color: #adadad;
 }
 
 .title span {
     color: #68020f;
-    font-family: 'Lexend Deca', serif;
+    font-family: 'Clear Sans Medium', sans-serif;
     font-weight: 900;
 }
 
