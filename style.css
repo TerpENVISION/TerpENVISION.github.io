@@ -62,13 +62,6 @@ button {
     margin-inline: 20px;
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;     
-  width: 100%;
-}
-
 .content ul {
     display: flex;
     flex-direction: row;
