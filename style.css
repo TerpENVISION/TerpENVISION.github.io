@@ -60,13 +60,10 @@ button {
 }
 
 .content ul {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
 }
 
 .content a {
