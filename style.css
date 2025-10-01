@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.cdnfonts.com/css/repetition-scrolling');
 @media (max-width: 600px) {
   .card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-.card {
-  flex: 1 1 100%; /* di HP tampil satu-satu */
+  
+  .card {
+  flex: 1 1 100%; 
 }
   nav {
     padding: 10px;
