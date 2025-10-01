@@ -64,7 +64,7 @@ button {
 
 .content {
   display: flex;
-  gap: 20px; 
+  gap: 70px; 
   align-items: center;     
   width: 100%;
 }
