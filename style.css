@@ -59,11 +59,20 @@ button {
     margin-inline: 20px;
 }
 
+.content {
+  display: flex;
+  justify-content: center; /* Pusatkan horizontal */
+  align-items: center;     /* Pusatkan vertikal jika tinggi ditentukan */
+  width: 100%;
+}
+
 .content ul {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .content a {
