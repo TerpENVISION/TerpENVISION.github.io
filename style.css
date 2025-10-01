@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
 @import url('https://fonts.cdnfonts.com/css/repetition-scrolling');
-@import url('https://fonts.cdnfonts.com/css/clear-sans?styles=20831')
+@import url('https://fonts.cdnfonts.com/css/clear-sans')
 @media (max-width: 600px) {
   .card-container {
   display: flex;
@@ -64,14 +64,14 @@ button {
 
 .content {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: space-between; 
   align-items: center;     
   width: 100%;
 }
 
 .content ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
     gap: 10px;
     list-style: none;
