@@ -97,7 +97,6 @@ button {
     font-family: 'lexend deca', serif;
     display: flex;
     flex-direction: row;
-    width: 10%;
 }
 
 #landing {
