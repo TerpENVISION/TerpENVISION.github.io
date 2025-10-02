@@ -65,7 +65,7 @@ button {
 .content ul {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     list-style: none;
 }
 
@@ -85,12 +85,6 @@ button {
 
 .content a:hover {
     color: #adadad;
-}
-
-.content ul {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
 }
 
 .logo {
