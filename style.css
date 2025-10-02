@@ -67,7 +67,6 @@ button {
     flex-direction: row;
     gap: 20px;
     list-style: none;
-    overflow: hidden;
 }
 
 .content a {
@@ -86,10 +85,6 @@ button {
 
 .content a:hover {
     color: #adadad;
-}
-
-.content li{
-    float: center
 }
 
 .logo {
