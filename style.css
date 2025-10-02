@@ -60,6 +60,7 @@ button {
     align-items: center;
     justify-content: space-between;
     margin-inline: 20px;
+    position: relative;
 }
 
 .content ul {
@@ -81,6 +82,12 @@ button {
     -ms-transition: .5 ease-in-out;
     -o-transition: .5 ease-in-out;
     transition: .5 ease-in-out;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .content a:hover {
