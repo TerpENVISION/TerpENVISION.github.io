@@ -68,6 +68,8 @@ button {
     flex-direction: row;
     gap: 20px;
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .content a {
@@ -101,6 +103,8 @@ button {
     font-family: 'lexend deca', serif;
     display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: px;
 }
 
 #landing {
