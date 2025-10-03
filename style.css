@@ -2,20 +2,10 @@
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
 @import url('https://fonts.cdnfonts.com/css/repetition-scrolling');
 @import url('https://fonts.cdnfonts.com/css/clear-sans');
-@media (max-width: 720px){
-   .nav {
-         height: 50px;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-between;
-         margin-inline: 20px;
-        }
-
-   .content {
-         position: absolute;
-         left: 0%;
-         transform: none;
-        }
+@media (max-width: 780px) {
+    body {
+        background-color: lightgray;
+    }
 }
   
 .card {
